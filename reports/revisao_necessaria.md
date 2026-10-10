@@ -1,0 +1,546 @@
+# Itens para revisão manual
+
+Gerado a partir de 1795 funções extraídas do CHM.
+
+## Páginas que não puderam ser parseadas automaticamente
+
+Ver `skipped_pages.json` no diretório de build - a maioria são páginas descritivas (não são de fato uma função) ou têm formatação irregular na doc.
+
+## Parâmetros ByRef com direção inferida por heurística de baixa confiança (482)
+
+Nestes casos o texto da descrição não continha um sinal claro de entrada/saída; a direção foi inferida pelo prefixo do nome da função (Get/Count -> saída, Set/Add/Delete -> entrada). Confira manualmente antes de usar em produção.
+
+- `SapModel.Results.Setup.SelectAllSectionCutsForOutput` — parâmetro `Selected` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `F11` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `F22` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `F12` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `FMax` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `FMin` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `FAngle` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `FVM` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `M11` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `M22` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `M12` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `MMax` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `MMin` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `MAngle` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `V13` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `V23` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `VMax` classificado como **output**
+- `SapModel.Results.AreaForceShell` — parâmetro `VAngle` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.AreaJointForcePlane` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `M1` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.AreaJointForceShell` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `E11Top` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `E22Top` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `G12Top` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EMaxTop` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EMinTop` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EAngleTop` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EVMTop` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `E11Bot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `E22Bot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `G12Bot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EMaxBot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EMinBot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EAngleBot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `EVMBot` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `G13Avg` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `G23Avg` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `GMaxAvg` classificado como **output**
+- `SapModel.Results.AreaStrainShell` — parâmetro `GAngleAvg` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `IntPtNum` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `IntPtLoc` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `E11` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `E22` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `G12` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `EMax` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `EMin` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `EAngle` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `EVM` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `G13Avg` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `G23Avg` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `GMaxAvg` classificado como **output**
+- `SapModel.Results.AreaStrainShellLayered` — parâmetro `GAngleAvg` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `S11` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `S22` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `S33` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `S12` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `SMax` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `SMin` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `SAngle` classificado como **output**
+- `SapModel.Results.AreaStressPlane` — parâmetro `SVM` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S11Top` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S22Top` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S12Top` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SMaxTop` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SMinTop` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SAngleTop` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SVMTop` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S11Bot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S22Bot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S12Bot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SMaxBot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SMinBot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SAngleBot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SVMBot` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S13Avg` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `S23Avg` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SMaxAvg` classificado como **output**
+- `SapModel.Results.AreaStressShell` — parâmetro `SAngleAvg` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `IntPtNum` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `IntPtLoc` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `S11` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `S22` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `S12` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `SMax` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `SMin` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `SAngle` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `SVM` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `S13Avg` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `S23Avg` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `SMaxAvg` classificado como **output**
+- `SapModel.Results.AreaStressShellLayered` — parâmetro `SAngleAvg` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `MassSource` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.AssembledJointMass_1` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `Fx` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `Fy` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `Fz` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `Mx` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `My` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `Mz` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `gx` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `gy` classificado como **output**
+- `SapModel.Results.BaseReact` — parâmetro `gz` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `Fx` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `Fy` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `Fz` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `Mx` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `My` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `Mz` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `gx` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `gy` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `gz` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `XCentroidForFX` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `YCentroidForFX` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `ZCentroidForFX` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `XCentroidForFY` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `YCentroidForFY` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `ZCentroidForFY` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `XCentroidForFZ` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `YCentroidForFZ` classificado como **output**
+- `SapModel.Results.BaseReactWithCentroid` — parâmetro `ZCentroidForFZ` classificado como **output**
+- `SapModel.Results.BridgeSuperCutLongitStress` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.BridgeSuperCutLongitStress` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.BridgeSuperCutLongitStress` — parâmetro `Stress` classificado como **output**
+- `SapModel.Results.BucklingFactor` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.BucklingFactor` — parâmetro `stepnum` classificado como **output**
+- `SapModel.Results.BucklingFactor` — parâmetro `Factor` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `ObjSta` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `ElmSta` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `P` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `V2` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `V3` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `T` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.FrameForce` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `M1` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.FrameJointForce` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.GeneralizedDispl` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.GeneralizedDispl` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.GeneralizedDispl` — parâmetro `DType` classificado como **output**
+- `SapModel.Results.GeneralizedDispl` — parâmetro `Value` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.JointAcc` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.JointAccAbs` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.JointDispl` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.JointDisplAbs` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `M1` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.JointReact` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.JointRespSpec` — parâmetro `CoordSys` classificado como **output**
+- `SapModel.Results.JointRespSpec` — parâmetro `Dir` classificado como **output**
+- `SapModel.Results.JointRespSpec` — parâmetro `Damping` classificado como **output**
+- `SapModel.Results.JointRespSpec` — parâmetro `SpecWidening` classificado como **output**
+- `SapModel.Results.JointRespSpec` — parâmetro `AbscissaValue` classificado como **output**
+- `SapModel.Results.JointRespSpec` — parâmetro `OrdinateValue` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.JointVel` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.JointVelAbs` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.LinkDeformation` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `P` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `V2` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `V3` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `T` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.LinkForce` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `M1` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.LinkJointForce` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.ModalLoadParticipationRatios` — parâmetro `ItemType` classificado como **output**
+- `SapModel.Results.ModalLoadParticipationRatios` — parâmetro `Item` classificado como **output**
+- `SapModel.Results.ModalLoadParticipationRatios` — parâmetro `Stat` classificado como **output**
+- `SapModel.Results.ModalLoadParticipationRatios` — parâmetro `Dyn` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Period` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Ux` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Uy` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Uz` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `SumUx` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `SumUy` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `SumUz` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Rx` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Ry` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `Rz` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `SumRx` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `SumRy` classificado como **output**
+- `SapModel.Results.ModalParticipatingMassRatios` — parâmetro `SumRz` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Period` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Ux` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Uy` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Uz` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Rx` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Ry` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `Rz` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `ModalMass` classificado como **output**
+- `SapModel.Results.ModalParticipationFactors` — parâmetro `ModalStiff` classificado como **output**
+- `SapModel.Results.ModalPeriod` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.ModalPeriod` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.ModalPeriod` — parâmetro `Period` classificado como **output**
+- `SapModel.Results.ModalPeriod` — parâmetro `Frequency` classificado como **output**
+- `SapModel.Results.ModalPeriod` — parâmetro `CircFreq` classificado como **output**
+- `SapModel.Results.ModalPeriod` — parâmetro `EigenValue` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.ModeShape` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `U1` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `U2` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `U3` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `R1` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `R2` classificado como **output**
+- `SapModel.Results.PanelZoneDeformation` — parâmetro `R3` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `P` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `V2` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `V3` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `T` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.PanelZoneForce` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `M1` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.SectionCutAnalysis` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `P` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `V2` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `V3` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `T` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.SectionCutDesign` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `F1` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `F2` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `F3` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `M1` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `M2` classificado como **output**
+- `SapModel.Results.SolidJointForce` — parâmetro `M3` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `E11` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `E22` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `E33` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `G12` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `G13` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `G23` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `EMax` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `EMid` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `EMin` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `EVM` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMax1` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMax2` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMax3` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMid1` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMid2` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMid3` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMin1` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMin2` classificado como **output**
+- `SapModel.Results.SolidStrain` — parâmetro `DirCosMin3` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `PointElm` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `StepType` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `StepNum` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `S11` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `S22` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `S33` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `S12` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `S13` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `S23` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `SMax` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `SMid` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `SMin` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `SVM` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMax1` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMax2` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMax3` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMid1` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMid2` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMid3` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMin1` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMin2` classificado como **output**
+- `SapModel.Results.SolidStress` — parâmetro `DirCosMin3` classificado como **output**
+- `SapModel.Results.StepLabel` — parâmetro `Label` classificado como **output**
+- `SapModel.SectCut.AddQuad` — parâmetro `X` classificado como **input**
+- `SapModel.SectCut.AddQuad` — parâmetro `Y` classificado como **input**
+- `SapModel.SectCut.AddQuad` — parâmetro `Z` classificado como **input**
+- `SapModel.SectCut.GetQuad` — parâmetro `X` classificado como **input**
+- `SapModel.SectCut.GetQuad` — parâmetro `Y` classificado como **input**
+- `SapModel.SectCut.GetQuad` — parâmetro `Z` classificado como **input**
+- `SapModel.DesignAluminum.VerifyPassed` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignAluminum.VerifyPassed` — parâmetro `n1` classificado como **output**
+- `SapModel.DesignAluminum.VerifyPassed` — parâmetro `n2` classificado como **output**
+- `SapModel.DesignAluminum.VerifyPassed` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignAluminum.VerifySections` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignAluminum.VerifySections` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignColdFormed.VerifyPassed` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignColdFormed.VerifyPassed` — parâmetro `n1` classificado como **output**
+- `SapModel.DesignColdFormed.VerifyPassed` — parâmetro `n2` classificado como **output**
+- `SapModel.DesignColdFormed.VerifyPassed` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignColdFormed.VerifySections` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignColdFormed.VerifySections` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignConcrete.VerifyPassed` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignConcrete.VerifyPassed` — parâmetro `n1` classificado como **output**
+- `SapModel.DesignConcrete.VerifyPassed` — parâmetro `n2` classificado como **output**
+- `SapModel.DesignConcrete.VerifyPassed` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignConcrete.VerifySections` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignConcrete.VerifySections` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignSteel.VerifyPassed` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignSteel.VerifyPassed` — parâmetro `n1` classificado como **output**
+- `SapModel.DesignSteel.VerifyPassed` — parâmetro `n2` classificado como **output**
+- `SapModel.DesignSteel.VerifyPassed` — parâmetro `MyName` classificado como **output**
+- `SapModel.DesignSteel.VerifySections` — parâmetro `NumberItems` classificado como **output**
+- `SapModel.DesignSteel.VerifySections` — parâmetro `MyName` classificado como **output**
+- `SapModel.EditArea.ChangeConnectivity` — parâmetro `Point` classificado como **output**
+- `SapModel.EditArea.Divide` — parâmetro `NumberAreas` classificado como **output**
+- `SapModel.EditArea.Divide` — parâmetro `AreaName` classificado como **output**
+- `SapModel.EditArea.Merge` — parâmetro `NumberAreas` classificado como **output**
+- `SapModel.EditArea.Merge` — parâmetro `AreaName` classificado como **output**
+- `SapModel.EditFrame.DivideAtDistance` — parâmetro `NewName` classificado como **output**
+- `SapModel.EditFrame.DivideAtIntersections` — parâmetro `Num` classificado como **output**
+- `SapModel.EditFrame.DivideAtIntersections` — parâmetro `NewName` classificado como **output**
+- `SapModel.EditFrame.DivideByRatio` — parâmetro `NewName` classificado como **output**
+- `SapModel.EditPoint.Align` — parâmetro `NumberPoints` classificado como **output**
+- `SapModel.EditPoint.Align` — parâmetro `PointName` classificado como **output**
+- `SapModel.EditPoint.Connect` — parâmetro `NumberPoints` classificado como **output**
+- `SapModel.EditPoint.Connect` — parâmetro `PointName` classificado como **output**
+- `SapModel.EditPoint.Disconnect` — parâmetro `NumberPoints` classificado como **output**
+- `SapModel.EditPoint.Disconnect` — parâmetro `PointName` classificado como **output**
+- `SapModel.EditPoint.Merge` — parâmetro `NumberPoints` classificado como **output**
+- `SapModel.EditPoint.Merge` — parâmetro `PointName` classificado como **output**
+- `SapModel.EditSolid.Divide` — parâmetro `NumberSolids` classificado como **output**
+- `SapModel.EditSolid.Divide` — parâmetro `SolidName` classificado como **output**
+- `SapModel.EditSolid.ExtrudeAreaToSolidLinearNormal` — parâmetro `NumberSolids` classificado como **output**
+- `SapModel.EditSolid.ExtrudeAreaToSolidLinearNormal` — parâmetro `SolidName` classificado como **output**
+- `SapModel.EditSolid.ExtrudeAreaToSolidLinearUser` — parâmetro `NumberSolids` classificado como **output**
+- `SapModel.EditSolid.ExtrudeAreaToSolidLinearUser` — parâmetro `SolidName` classificado como **output**
+- `SapModel.EditSolid.ExtrudeAreaToSolidRadial` — parâmetro `NumberSolids` classificado como **output**
+- `SapModel.EditSolid.ExtrudeAreaToSolidRadial` — parâmetro `SolidName` classificado como **output**
+- `SapModel.EditSolid.ExtrudeFrameToAreaLinear` — parâmetro `AreaName` classificado como **output**
+- `SapModel.EditSolid.ExtrudeFrameToAreaRadial` — parâmetro `AreaName` classificado como **output**
+- `SapModel.EditSolid.ExtrudePointToFrameLinear` — parâmetro `FrameName` classificado como **output**
+- `SapModel.EditSolid.ExtrudePointToFrameRadial` — parâmetro `FrameName` classificado como **output**
+- `SapModel.EditSolid.ReplicateLinear` — parâmetro `NumberObjects` classificado como **output**
+- `SapModel.EditSolid.ReplicateLinear` — parâmetro `ObjectName` classificado como **output**
+- `SapModel.EditSolid.ReplicateLinear` — parâmetro `ObjectType` classificado como **output**
+- `SapModel.EditSolid.ReplicateMirror` — parâmetro `NumberObjects` classificado como **output**
+- `SapModel.EditSolid.ReplicateMirror` — parâmetro `ObjectName` classificado como **output**
+- `SapModel.EditSolid.ReplicateMirror` — parâmetro `ObjectType` classificado como **output**
+- `SapModel.EditSolid.ReplicateRadial` — parâmetro `NumberObjects` classificado como **output**
+- `SapModel.EditSolid.ReplicateRadial` — parâmetro `ObjectName` classificado como **output**
+- `SapModel.EditSolid.ReplicateRadial` — parâmetro `ObjectType` classificado como **output**
+- `SapModel.AreaObj.AddByCoord` — parâmetro `x` classificado como **input**
+- `SapModel.AreaObj.AddByCoord` — parâmetro `y` classificado como **input**
+- `SapModel.AreaObj.AddByCoord` — parâmetro `z` classificado como **input**
+- `SapModel.AreaObj.AddByPoint` — parâmetro `Point` classificado como **input**
+- `SapModel.ExternalAnalysisResults.PresetFrameCases` — parâmetro `Name` classificado como **output**
+- `SapModel.ExternalAnalysisResults.PresetFrameCases` — parâmetro `casname` classificado como **output**
+- `SapModel.SolidObj.AddByCoord` — parâmetro `x` classificado como **input**
+- `SapModel.SolidObj.AddByCoord` — parâmetro `y` classificado como **input**
+- `SapModel.SolidObj.AddByCoord` — parâmetro `z` classificado como **input**
+- `SapModel.SolidObj.AddByPoint` — parâmetro `Point` classificado como **input**
+- `SapModel.SelectObj.LinesParallelToCoordAxis` — parâmetro `ParallelTo` classificado como **output**
+- `SapModel.SelectObj.SupportedPoints` — parâmetro `DOF` classificado como **output**
+
+## Valores default (VB6) não resolvidos para literal Python (0)
+
+
+## Parâmetros `Optional` sem valor default explícito na doc (13)
+
+A doc VB6 às vezes escreve `Optional ByVal X As eTipo` sem um `= valor` (ex.: `Count(Optional ByVal MatType As eMatType)`). Isso virou `X: int = None` no wrapper — se você não informar o argumento, `None` é passado direto para a chamada COM. O comtypes tem suporte documentado a `None` como "argumento opcional omitido" para interfaces desse estilo (VB6/IDispatch), então isso **provavelmente** funciona sem precisar informar o valor - mas não pude confirmar empiricamente sem um SAP2000 real rodando no Windows. Se der erro, informe o parâmetro explicitamente em vez de omitir.
+
+- `SapModel.CableObj.SetOutputStations` — parâmetro `NoOutPutAndDesignAtElementEnds`
+- `SapModel.CableObj.SetOutputStations` — parâmetro `NoOutPutAndDesignAtPointLoads`
+- `SapModel.ConstraintDef.Count` — parâmetro `ConstraintType`
+- `SapModel.GenRefLine.ConvertLineToBLL` — parâmetro `OffsetZ`
+- `SapModel.LoadCases.Count` — parâmetro `CaseType`
+- `SapModel.LoadCases.GetNameList` — parâmetro `CaseType`
+- `SapModel.PropFrame.Count` — parâmetro `PropType`
+- `SapModel.PropFrame.GetNameList` — parâmetro `PropType`
+- `SapModel.PropFrame.GetPropFileNameList` — parâmetro `PropType`
+- `SapModel.PropLink.Count` — parâmetro `PropType`
+- `SapModel.PropLink.GetNameList` — parâmetro `PropType`
+- `SapModel.PropMaterial.Count` — parâmetro `MatType`
+- `SapModel.PropMaterial.GetNameList` — parâmetro `MatType`
+
+## Segmentos de path com caractere inválido, sanitizados (3)
+
+Prováveis erros de digitação na própria documentação (ex.: falta um underscore). O nome sanitizado foi usado como aposta no atributo COM real - confira contra o SAP2000 antes de usar essa parte da árvore.
+
+- `Indian_IS:800_1998` -> usado como `Indian_IS_800_1998`
+- `Static Nonlinear` -> usado como `Static_Nonlinear`
+- `Static NonlinearStaged` -> usado como `Static_NonlinearStaged`
+
+## Parâmetros duplicados na assinatura (erro na doc original), renomeados (1)
+
+A própria documentação da CSI declara o mesmo nome de parâmetro duas vezes na mesma função (ex.: `Fx` duas vezes, provavelmente deveria ser `Fx`/`Fy`). Renomeei a segunda ocorrência para não quebrar a assinatura Python - confira o nome real antes de usar essa função.
+
+- `SapModel.LoadPatterns.AutoWind.GetUserLoad` — `Fx` duplicado, segunda ocorrência renomeada para `Fx_2`
+
+## Colisões de nome dentro da mesma classe, resolvidas (6)
+
+A doc da CSI tem erros de copiar-colar nos dois sentidos: às vezes o nome na assinatura VB6 está errado (ex.: página `FrameJointForce` declara `Function FrameForce`), às vezes é o Syntax path que foi copiado de uma página vizinha. Quando isso gerava duas funções com o mesmo nome na mesma classe, usei o nome do arquivo .htm como critério de desempate.
+
+- `SapModel.ConstraintDef.GetSpecialRigidDiaphragmList` — nome ajustado de `GetSpecialRigidDiaphragmList` para `GetDList` (a partir do nome do arquivo)
+- `SapModel.LoadCases.ModHistLinear.GetDampInterpolated` — nome ajustado de `GetDampInterpolated` para `GetDampOverrides` (a partir do nome do arquivo)
+- `SapModel.LoadCases.ModHistNonlinear.GetDampInterpolated` — nome ajustado de `GetDampInterpolated` para `GetDampOverrides` (a partir do nome do arquivo)
+- `SapModel.LoadCases.Moving.SetMultiLaneSF` — nome ajustado de `SetMultiLaneSF` para `SetLanesLoaded` (a partir do nome do arquivo)
+- `SapModel.LoadCases.ResponseSpectrum.GetDampInterpolated` — nome ajustado de `GetDampInterpolated` para `GetDampOverrides` (a partir do nome do arquivo)
+- `SapModel.LoadPatterns.AutoSeismic.GetBOCA96` — nome ajustado de `GetBOCA96` para `GetUserCoefficient` (a partir do nome do arquivo)
+
+## Colisões resolvidas movendo a função de nó (1)
+
+Nestes casos até o nome do arquivo colidia — o problema real é que o Syntax path aponta para o nó errado (ex.: uma página de 'WSD2014' cujo Syntax path aponta para o nó 'WSD2000'). Movi a função para um nó derivado da pasta de origem do arquivo; confirme contra a doc antes de usar.
+
+- `SapModel.DesignSteel.API_RP2A_WSD2000.SetPreference` — movido de `SapModel.DesignSteel.API_RP2A_WSD2000` para `SapModel.DesignSteel.API_RP2A_WSD2014`

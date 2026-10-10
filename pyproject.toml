@@ -1,0 +1,18 @@
+[project]
+name = "sap2000-oapi"
+version = "0.1.0"
+description = "Wrapper Python tipado para a OAPI do SAP2000 v20, gerado a partir da documentação CHM"
+requires-python = ">=3.10"
+dependencies = [
+    "comtypes",   # interface COM com o SAP2000 (Windows apenas)
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

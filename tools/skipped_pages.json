@@ -1,0 +1,74 @@
+[
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Analysis_Results/Results/Analysis_Results_Remarks.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Analysis_Results/Results/Analysis_Results_Step_Number.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Analysis_Results/Results/Analysis_Results_Step_Type.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Analysis_Results/Results/Base_Reaction_Centroids.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Analysis_Results/Results/Item_Type_for_Elements.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Breaking_Changes_Between_v16_and_v17/Breaking_Changes.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Breaking_Changes_Between_v16_and_v17/Breaking_Changes_to_COM_Enumerations.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Breaking_Changes_Between_v16_and_v17/Breaking_Changes_to_NET_Enumerations.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Breaking_Changes_Between_v17_and_v18/Breaking_Changes_v18.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Design/Concrete/TS_500_2000/GetOverwrite_{Concrete_TS_500-2000}.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Design/Concrete/TS_500_2000/GetPreference_{Concrete_TS_500-2000}.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Design/Concrete/TS_500_2000/SetOverwrite_{TS_500_2000}.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Design/Concrete/TS_500_2000/SetPreference_{Concrete_TS_500_2000}.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Object_Model/Frame_Object/GetDAMModifiers.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Object_Model/Frame_Object/GetLoadTransfer.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Object_Model/Frame_Object/SetLoadTransfer.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/Object_Model/Point_Object/AddQuad.htm",
+  "sem Syntax/VB6 Procedure"
+ ],
+ [
+  "/home/claude/chm_extract/SAP2000_API_Fuctions/View/RefreshWindow_and_RefreshView.htm",
+  "sem Syntax/VB6 Procedure"
+ ]
+]
